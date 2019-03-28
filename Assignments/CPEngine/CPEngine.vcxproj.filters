@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{284875c9-e484-400a-9533-f4c9db2e76ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{bd6c3844-a018-4eda-99a3-1ec20d6cbe96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{e34bb80b-a51c-4e2f-95b7-8bf0e90e0d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Console">
+      <UniqueIdentifier>{5fe9a433-1af6-4d47-90ad-e48045e8941a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Engine">
+      <UniqueIdentifier>{edf48522-922f-43bb-b9aa-670d2faaa80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{69af1f6a-f3d5-4f67-bde8-ef3163c9af81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Strings">
+      <UniqueIdentifier>{c9504283-e76f-40bf-bcc1-84275b537d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{cdf00017-cadf-4540-8100-3d07dfb118c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Physics">
+      <UniqueIdentifier>{658ad096-c286-435d-b2bd-ec0fdfc75bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Timer">
+      <UniqueIdentifier>{086d088b-c794-48dc-a7a3-baca6fd79d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Helpers">
+      <UniqueIdentifier>{6ca37747-a507-4eeb-95bd-8af1a84c7aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Helpers\PublicInstances">
+      <UniqueIdentifier>{f7d57ac6-c455-4b1a-ba19-d299977a8dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Helpers\Functions">
+      <UniqueIdentifier>{8f5d16f2-38aa-4ba8-a882-05d0d962a050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Controller Interfaces">
+      <UniqueIdentifier>{89ca68a9-a580-4732-9215-4ddd38f4d1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager">
+      <UniqueIdentifier>{9ccc55b9-d6de-47a5-ab77-fd0e49d9d832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager\Allocators">
+      <UniqueIdentifier>{607f9273-a5be-4aff-9c24-4efbbe95dd0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager\BitArray">
+      <UniqueIdentifier>{ae1e7dd7-f74b-4baf-8861-0abce00bff9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager\FSA">
+      <UniqueIdentifier>{249a1602-a330-4c26-8d5b-4fa2b5509089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory Manager\HeapManager">
+      <UniqueIdentifier>{44fbe0c7-89da-4f5e-b7ad-244488753c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Actors">
+      <UniqueIdentifier>{a0e38e7d-2716-4b44-beba-036f3ed1e744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib">
+      <UniqueIdentifier>{9372d50a-eceb-4111-939a-0f9685a82610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\Buffers">
+      <UniqueIdentifier>{440ce010-3da9-4282-a63b-edda8cee5227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\Console">
+      <UniqueIdentifier>{ada1c0ae-88df-4f60-b8a8-47ec12a20580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\DDSLoader">
+      <UniqueIdentifier>{fa0eef50-875e-4e57-899f-d4ed24404465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\Resources">
+      <UniqueIdentifier>{dfa5c9f3-9a12-4cfc-926e-dc136e5bd8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\Sprite">
+      <UniqueIdentifier>{3f18d8b1-ca65-43b0-8579-7f1f4e336346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\System">
+      <UniqueIdentifier>{d958ab7a-1932-4138-88ac-53172bbb21da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Lib\Shader">
+      <UniqueIdentifier>{02e9525d-326a-4f76-b333-0f32efcc6654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Pointers">
+      <UniqueIdentifier>{893b167d-ede3-489f-8cc8-a680c4b45685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{9b0780de-b515-46c7-aaab-394d9a99b40a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\InputManager.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Timer.cpp">
+      <Filter>Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Console.cpp">
+      <Filter>Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Point2D.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CharacterName.cpp">
+      <Filter>Core\Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects.cpp">
+      <Filter>Game Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MemoryInstance.cpp">
+      <Filter>Core\Helpers\PublicInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MemorySystem.cpp">
+      <Filter>Core\Helpers\PublicInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\PlayerInstance.cpp">
+      <Filter>Core\Helpers\PublicInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\StringToNum.cpp">
+      <Filter>Core\Helpers\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Engine.cpp">
+      <Filter>Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Allocators.cpp">
+      <Filter>Memory Manager\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BitArray.cpp">
+      <Filter>Memory Manager\BitArray</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\FSA.cpp">
+      <Filter>Memory Manager\FSA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\HeapManager.cpp">
+      <Filter>Memory Manager\HeapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\HeapManagerProxy-Sample.cpp">
+      <Filter>Memory Manager\HeapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\CPUAccessableBuffer.cpp">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\DrawResourcesBuffer.cpp">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ImmutableBuffer.cpp">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ConsolePrint.Win32.cpp">
+      <Filter>Graphics Lib\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\DDSTextureLoader.cpp">
+      <Filter>Graphics Lib\DDSLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Texture.cpp">
+      <Filter>Graphics Lib\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\SpriteRender.cpp">
+      <Filter>Graphics Lib\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Device.cpp">
+      <Filter>Graphics Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Initialization.cpp">
+      <Filter>Graphics Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Render.cpp">
+      <Filter>Graphics Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Service.cpp">
+      <Filter>Graphics Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Window.cpp">
+      <Filter>Graphics Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Renderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\PhysicsComponent.cpp">
+      <Filter>Core\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Input.cpp">
+      <Filter>Graphics Lib\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LuaParser.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Timer.h">
+      <Filter>Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\InputManager.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Engine.h">
+      <Filter>Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GLib.h">
+      <Filter>Graphics Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BasicTypes.h">
+      <Filter>Graphics Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IObjectController.h">
+      <Filter>Interfaces\Controller Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameObject.h">
+      <Filter>Game Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\StringToNum.h">
+      <Filter>Core\Helpers\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Point2D.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Console.h">
+      <Filter>Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CharacterName.h">
+      <Filter>Core\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MemoryInstance.h">
+      <Filter>Core\Helpers\PublicInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MemorySystem.h">
+      <Filter>Core\Helpers\PublicInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\PlayerInstance.h">
+      <Filter>Core\Helpers\PublicInstances</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Allocators.h">
+      <Filter>Memory Manager\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BitArray.h">
+      <Filter>Memory Manager\BitArray</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\FSA.h">
+      <Filter>Memory Manager\FSA</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\HeapManager.h">
+      <Filter>Memory Manager\HeapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\HeapManagerProxy.h">
+      <Filter>Memory Manager\HeapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Device.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DXHelpers.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DXHelpers-inl.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Helpers.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Initialization.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Window.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Input.h">
+      <Filter>Graphics Lib\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SpritePS.h">
+      <Filter>Graphics Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SpriteVS.h">
+      <Filter>Graphics Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Texture.h">
+      <Filter>Graphics Lib\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DDSTextureLoader.h">
+      <Filter>Graphics Lib\DDSLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ConsolePrint.h">
+      <Filter>Graphics Lib\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\CPUAccessableBuffer.h">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DrawResourcesBuffer.h">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DrawResourcesBuffer-inl.h">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\IGPUResourceBuffer.h">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ImmutableBuffer.h">
+      <Filter>Graphics Lib\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Renderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\PhysicsComponent.h">
+      <Filter>Core\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\WeakPointer.h">
+      <Filter>Core\Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\SmartPointer.h">
+      <Filter>Core\Pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LuaParser.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source Files\_Shaders\SpritePS.hlsl">
+      <Filter>Graphics Lib\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source Files\_Shaders\SpriteVS.hlsl">
+      <Filter>Graphics Lib\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source Files\_Shaders\VSOutput.hlsli">
+      <Filter>Graphics Lib\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
